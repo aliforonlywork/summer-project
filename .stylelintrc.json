@@ -1,0 +1,12 @@
+{
+  "plugins": ["@stylistic/stylelint-plugin"],
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "@stylistic/declaration-colon-space-after": "always",
+    "@stylistic/declaration-colon-space-before": "never",
+    "@stylistic/declaration-block-semicolon-space-after": "always",
+    "@stylistic/max-empty-lines": 1,
+    "@stylistic/string-quotes": "double",
+    "no-empty-source": true
+  }
+}
